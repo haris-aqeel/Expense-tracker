@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense Tracker App</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="app.js"></script>
+</head>
+
+<body>
+
+    <article class="expense-tracker-app" id="ETP">
+
+        <h1>EXPENSE TRACKER APP</h1>
+        <div class="balance">
+            <h2>Total Balance</h2>
+            <h3 class="totalBalance">$0.00</h3>
+        </div>
+
+        <div class="cc">
+            <div class="expenses">
+                <h3>Expense:</h3>
+                <h3 class="expense">-$0.00</h3>
+            </div>
+            <div class="incomes">
+                <h3>Income:</h3>
+                <h3 class="income">-$0.00</h3>
+            </div>
+        </div>
+
+        <div class="listItems">
+            <h3>TRANSACTION HISTORY</h3>
+            <ul class="myList">
+
+            </ul>
+        </div>
+
+
+
+        <label for="description">DESCRIPTION:<br />
+            <input type="text" class="input-field-1" placeholder="Description" id="description"
+                onchange="inputDescription(this.value)">
+        </label>
+
+        <label for="value">ADD VALUE:<br />
+            <input type="text" class="input-field-2" placeholder="Value" id="value" onchange="inputValue(this.value)">
+        </label>
+
+        <button onClick='submit(this)' class="mybtn">ADD TRANSACTION</button>
+
+
+
+
+
+    </article>
+
+</body>
+
+</html>

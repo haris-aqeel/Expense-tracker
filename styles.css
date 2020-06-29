@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+    color: blanchedalmond;
+    
+}
+body{
+    background-image: url('money.jpg');
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.expense-tracker-app{
+    width: 500px;
+    text-align: left;
+    height: 600px;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-evenly;
+    padding-left: 25px;
+    border: #fff 10px solid;
+    background-color: black;
+}
+
+.cc {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 12px 0px;
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: space-between;
+    flex-flow: column;
+    padding: 12px 0px;
+
+}
+
+.myList li {
+    width: 380px;
+    font-size: 22px;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 20px;
+    margin-top: 5px 0px;
+}
+.positive-hover:hover {
+    border-left: green 5px solid;
+    font-size: 1.1rem;
+    
+}
+.negative-hover:hover {
+    border-left: red 5px solid;
+    font-size: 1.1rem;
+}
+
+.myList li span {
+    
+
+}
+
+.input-field-1, .input-field-2{
+    width: 80%;
+    margin: 10px 0px;
+    padding: 8px 10px;
+    border-radius: 10px;
+    border: 1px solid gray;
+    outline: none;
+}
+
+.mybtn{
+    width: 90%;
+    padding: 10px;
+    border-radius: 16px;
+    cursor: pointer;
+    border: 1px solid gray;
+}
+
+.mybtn:hover{
+    width: 94%;
+    padding: 12px;
+    border-radius: 16px;
+    cursor: pointer;
+    border: 3px solid gray;
+    font-size: 1.1rem;
+}
+
+.balance h2{
+    
+    text-transform: uppercase;
+}
+
+.myimg{
+    
+    width: 13px;
+    height: 13px;
+    background-color: #fff;
+}
+
+.myList button{
+    width: 24px;
+    height: 24px;
+    background-color: #fff;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+.myList button:hover{
+    width: 28px;
+    height: 28px;
+}
